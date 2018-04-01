@@ -8,3 +8,15 @@ export function movieslist() {
         ]
     };
 }
+
+// prettier-ignore
+
+export function directorslist() {
+    return {
+        type: "DIR_LIST",
+        payload: [
+            { id: "1", name: "Terantino" },
+            { id: "2", name: "Scorsese" }
+        ]
+    };
+}
